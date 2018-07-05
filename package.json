@@ -1,0 +1,26 @@
+{
+  "name": "write-npmrc",
+  "version": "0.0.2",
+  "main": "index.js",
+  "bin": {
+    "write-npmrc": "bin/write-npmrc.js",
+    "npmrc": "bin/write-npmrc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unshift/write-npmrc.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pkg-up": "^2.0.0",
+    "registry-auth-token": "^3.3.2",
+    "lodash.set": "^4.3.2",
+    "fs-extra": "^5.0.0",
+    "node-fetch": "^1.7.3",
+    "chalk": "^2.3.0",
+    "nerf-dart": "^1.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
